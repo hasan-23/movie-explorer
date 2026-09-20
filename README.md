@@ -1,16 +1,18 @@
-# React + Vite
+# MovieExplorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple movie browsing web application built with React and Vite. Users can search for movies, filter by genre, sort by ratings, and save their favorite shows.
 
-Currently, two official plugins are available:
+- **Live Site:** https://movie-explorer-sable-nine.vercel.app
+- **GitHub Repository:** https://github.com/hasan-23/movie-explorer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Key Features
+- Search movies and TV shows in real-time
+- Filter shows by genre
+- Sort shows by highest rating
+- Save favorite shows to local storage
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+- **Frontend:** React, HTML, CSS, JavaScript
+- **Build Tool:** Vite
+- **API:** TVMaze API
+- **Deployment:** Vercel
